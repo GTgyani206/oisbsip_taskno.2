@@ -41,14 +41,14 @@ section {
 .extras {
   z-index: 2;
   .img-overlay {
-    background-image: url(resources/image3.jpeg);
+    /* background-image: url(resources/image5.jpeg); */
     opacity: 0.2;
   }
 }
 .conclusion {
   z-index: 1;
   .img-overlay {
-    background-image: url(resources/image4.jpeg);
+    /* background-image: url(resources/image4.jpeg); */
     opacity: 0.2;
   }
 }
