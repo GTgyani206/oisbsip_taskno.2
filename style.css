@@ -21,8 +21,9 @@ div {
   top: 0;
 }
 section {
-  padding: 10rem 20rem 10rem 20rem;
+  padding: 10% 5%;
 }
+
 .intro {
   z-index: 4;
   .img-overlay {
@@ -69,4 +70,16 @@ button {
 button:hover {
   border: 1px solid black;
   box-shadow: 2px 3px 4px black;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  h1 {
+    font-size: 2rem; 
+  }
+
+  section {
+    padding: 5rem 2rem;
+  }
 }
