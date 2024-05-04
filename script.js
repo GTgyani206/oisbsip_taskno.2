@@ -8,3 +8,7 @@ btns.forEach((btn) => {
     zIndexVal -= 1;
   });
 });
+
+function zIndexImgOverLay() {
+ return zIndexVal-1;
+}
